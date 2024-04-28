@@ -1,5 +1,4 @@
 # Smart ATS for Resumes 📄🔍
-
 This Smart Application Tracking System (ATS) is designed to evaluate resumes against a given job description. It provides insights on match percentage, missing keywords, and profile summaries to assist in resume screening.
 
 ## Features
@@ -28,9 +27,19 @@ This Smart Application Tracking System (ATS) is designed to evaluate resumes aga
 
 4. **Review Results**: View the ranked resumes, match percentages, and descriptions in the table format.
 
-## Feedback and Contributions
+## Contributing
+If you would like to contribute to this project, please follow these steps:
 
-Contributions and feedback are welcome! Feel free to open an issue or submit a pull request to enhance the functionality or address any issues.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+
+## Contact
+If you have any questions or issues, feel free to reach out to the maintainers:
+
+Maintainer: Jatin Agrawal
+Email: agrwl.jatin@gmail.com
+
 
 ## License
 
