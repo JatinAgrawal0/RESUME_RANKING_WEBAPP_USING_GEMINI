@@ -7,10 +7,10 @@ import google.generativeai as genai
 
 load_dotenv()
 
-# os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API_KEY'  # Set your Google API key here
-# GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-# genai.configure(api_key=GOOGLE_API_KEY)
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API_KEY'  # Set your Google API key here
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+genai.configure(api_key=GOOGLE_API_KEY)
+
 
 def get_gemini_response(input):
     model = genai.GenerativeModel('gemini-1.0-pro')
