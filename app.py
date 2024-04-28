@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 load_dotenv()
 
-os.environ['GOOGLE_API_KEY'] = st.secrets["API_KEY"]  # Set your Google API key here
+os.environ['GOOGLE_API_KEY'] = st.secrets['API_KEY']  # Set your Google API key here
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
