@@ -47,7 +47,7 @@ I want the response as per below structure
 
 st.set_page_config(page_title="Smart ATS for Resumes", layout="wide")
 
-st.title("Smart Application Tracking System")
+st.title("Resume Checker using llm")
 
 jd = st.text_area("Paste the Job Description")
 uploaded_files = st.file_uploader("Upload Your Resumes", type="pdf", accept_multiple_files=True,
