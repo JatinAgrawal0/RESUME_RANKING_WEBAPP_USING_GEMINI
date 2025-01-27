@@ -38,7 +38,7 @@ If you would like to contribute to this project, please follow these steps:
 If you have any questions or issues, feel free to reach out to the maintainers:
 
 Maintainer: Jatin Agrawal
-Email: agrwl.jatin@gmail.com
+Email: agrawaljatin656@gmail.com
 
 
 ## License
